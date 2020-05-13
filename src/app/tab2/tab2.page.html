@@ -1,17 +1,36 @@
-<ion-header [translucent]="true">
+<ion-header color="primary">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      Séries
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content color="medium">
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <ion-card color="dark">
+    <ion-card-header>
+      <img src="https://image.tmdb.org/t/p/w533_and_h300_bestv2/edmk8xjGBsYVIf4QtLY9WMaMcXZ.jpg">
+    </ion-card-header>
+
+    <ion-item color="dark">
+      <h1>Grey's Anatomy <span>(2005)</span></h1>
+    </ion-item>
+    <ion-item color="medium">
+      <div class="info ion-text-center">
+        <span class="tipo">TV-PG</span> <span class="duracao">44m</span>
+        <p>Drama médico, Drama romântico & Comédia dramática</p>
+      </div>
+    </ion-item>
+    <ion-item color="dark">
+      <div>
+        <h2>Sinopse</h2>
+        <p>Os médicos do Grey Sloan Memorial Hospital lidam diariamente com casos e consequências de vida ou morte. É um
+          no outro que eles encontram apoio, conforto, amizade e, às vezes, até mais que amizade... Juntos, eles
+          descobrem o quanto a vida profissional e a pessoal podem ser complicadas e se misturarem no meio do caminho.
+        </p>
+      </div>
+    </ion-item>
+  </ion-card>
+
 </ion-content>
