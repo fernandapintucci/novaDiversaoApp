@@ -1,0 +1,49 @@
+.banner{ 
+    position: relative;
+    background: url('https://1.bp.blogspot.com/-yInlnjjnY6k/XRdsnHH67EI/AAAAAAAASfo/BL897fCHwlQj2OQy3mXrJQ41HtVpGjKDQCLcBGAs/s1600/1_eN8PdGCaJ39DeWuTt2AiUw.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+    width: 100%;
+    padding: 15px;
+
+    .info-banner{
+        position: absolute;
+        bottom: 15px;
+
+        h2,p{
+            color: #ffffff;
+        }
+
+        h2{
+            font-size: 20px;
+            margin: 0;
+            font-weight: normal;
+        }
+
+        p{
+            font-size: 12px;
+            margin: 0;
+            font-weight: 15px;
+        }
+    }
+}
+
+.b{
+    text-align: right;
+    margin-right: 15px;
+}
+
+.prim{
+    p{
+        text-align: center;
+    }
+}
+
+.let{
+    
+    h5{
+        margin: 10px;
+    }
+}

@@ -1,0 +1,36 @@
+.banner{ 
+    position: relative;
+    background: url('https://image.tmdb.org/t/p/w533_and_h300_bestv2/kvbbK2rLGSJh9rf6gg1i1iVLYQS.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+    width: 100%;
+    padding: 15px;
+
+    .info-banner{
+        position: absolute;
+        bottom: 15px;
+
+        h2,p{
+            color: #ffffff;
+        }
+
+        h2{
+            font-size: 20px;
+            margin: 0;
+            font-weight: normal;
+        }
+
+        p{
+            font-size: 12px;
+            margin: 0;
+            font-weight: 15px;
+        }
+    }
+}
+
+.b{
+    text-align: right;
+    margin-right: 10px;
+}

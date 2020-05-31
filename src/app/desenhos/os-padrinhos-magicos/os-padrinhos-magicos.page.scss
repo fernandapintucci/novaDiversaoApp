@@ -1,0 +1,36 @@
+.banner{ 
+    position: relative;
+    background: url('https://iepp.com.br/wp-content/uploads/2018/01/L-1-850x425.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+    width: 100%;
+    padding: 15px;
+
+    .info-banner{
+        position: absolute;
+        bottom: 15px;
+
+        h2,p{
+            color: #ffffff;
+        }
+
+        h2{
+            font-size: 20px;
+            margin: 0;
+            font-weight: normal;
+        }
+
+        p{
+            font-size: 12px;
+            margin: 0;
+            font-weight: 15px;
+        }
+    }
+}
+
+.b{
+    text-align: right;
+    margin-right: 10px;
+}
